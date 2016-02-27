@@ -42,7 +42,20 @@ for i in range(len(w)/2):
 
 # print the_selected_strings
 print "\n"
+
+
 for i in range(10):
+
 	print random.choice(the_selected_strings) + " - " + random.choice(the_selected_strings)
+	# if random.uniform(0.0, 1.0) < 0.8:
+	# 	print random.choice(the_selected_strings),
+	# else:
+	# 	print " " * averagelength,
+	# print "-",
+	# if random.uniform(0.0, 1.0) < 0.8:
+	# 	print random.choice(the_selected_strings)
+	# else:
+	# 	print " " * averagelength
+
 
 print "\n"
